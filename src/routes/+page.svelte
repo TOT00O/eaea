@@ -5,7 +5,7 @@
   
 	  <h1>this is a website </h1>
 	  <h2>helloo</h2>
-	  <h3>word</h3>
+
 
   
 	</div>
@@ -22,7 +22,7 @@ section{
 width: 100vw;
 height: 100vh;
 margin: 0em;
- background: url(https://i.pinimg.com/564x/62/f5/c4/62f5c490b5b3acbe9be92a86322544c5.jpg) center center no-repeat fixed; 
+ background: url(https://i.pinimg.com/originals/be/5a/11/be5a11b56780bf2606179b60a595c79f.gif) center center no-repeat fixed; 
  background-size: cover;
 
 
@@ -31,13 +31,13 @@ margin: 0em;
 	main{
 
 	  margin:auto;
-	  width: 80vw;
-	  height: 10vh;
+	  width: 85vw;
+	  height: 100vh;
 	  display: grid;
 	  grid-template-columns: repeat(2,50%);
 	  overflow: hidden;
-	 
-	  border: dotted 3px;
+	background-color:rgb( 0 0 0/0.4);
+	  border: dotted 5px;
 	  border-radius: 22px;
 	  font-family: 'Lucida Sans';
 	  
@@ -46,7 +46,10 @@ margin: 0em;
 	  margin: auto;
 
 	}
-
+	h1{
+		font-size: 40px;
+		margin-bottom: 5px;
+	}
 	
 	</style>
   
