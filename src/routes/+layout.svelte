@@ -20,6 +20,7 @@
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+	import { base } from '$app/paths';
 </script>
 
 
@@ -29,12 +30,12 @@
 	</div>
 	<div class = "links">
 	<div class="links-waper">
-		<a href="/">Hem</a>
+		<a href="{base}/">Hem</a>
 
-	<a href="/photoapp">Moew</a>
+	<a href="{base}/photoapp">Moew</a>
 	
 	
-	<a href="/register"> reg</a>
+	<a href="{base}/register"> reg</a>
 	</div>
 </div>
 	
