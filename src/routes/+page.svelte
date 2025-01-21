@@ -19,22 +19,20 @@
 
 
 section{
-width: 100vw;
-height: 100vh;
-margin: 0em;
- background: url(https://i.pinimg.com/originals/be/5a/11/be5a11b56780bf2606179b60a595c79f.gif) center center no-repeat fixed; 
- background-size: cover;
-
-
+    background-image: url(https://i.pinimg.com/736x/c4/b0/e9/c4b0e90dff4dc55a1f9b4370343bdf7d.jpg) ;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        padding: 5%;
 }
 	
 	main{
-
+		text-align: center;
 	  margin:auto;
 	  width: 85vw;
-	  height: 100vh;
+	  height: 90vh;
 	  display: grid;
-	  grid-template-columns: repeat(2,50%);
+	  grid-template-columns:auto;
 	  overflow: hidden;
 	background-color:rgb( 0 0 0/0.4);
 	  border: dotted 5px;
@@ -44,6 +42,7 @@ margin: 0em;
 	}
 	div{
 	  margin: auto;
+		
 
 	}
 	h1{

@@ -2,11 +2,10 @@
 
     let color = 'black';
     function handleSubmit(){
-        alert("Welcome")
+        alert("Welcome Back")
     }
     let colors =[{name:"Blue", value: "CornflowerBlue"},{name:"Pink", value: "Pink"},{name:"Yellow", value: "LemonChiffon"},{name:"Green", value: "DarkSeaGreen"},{name:"Purple", value: "Lavender"},{name:"Gray", value: "LightGray"}]
-    import { base } from '$app/paths';
-
+    
 </script>
 
 
@@ -42,14 +41,9 @@
     <!--register button-->
     <br>
     <div class= "button">
-    <input type="submit" value="regestsos">
+    <input type="submit" value="LOGIN">
     </div>
-    
-    <h1>Do you aready have an account?</h1>
-    <div class=" wraper">
-    <a href="{base}/login">Login here</a>
-    </div>
-</div>   
+</div>    
 </form>
 
 </main>
@@ -62,6 +56,7 @@
         height: 100vh;
         padding: 5%;
     }
+    
     label{
         background-color: rgba(255, 255, 255, 0.3);
     }
@@ -75,17 +70,17 @@
     background-color: rgb(0 0 0/0.4);
     flex-direction: column;
     display: flex;
+    
     justify-content: center;
     align-items: center;
 
 }
 
 .button{
- background-color:rgb(255, 185, 226);
+ background-color: rgb(255, 255, 255);
  border-radius: 5px;
 }
 
-.wraper :hover{text-decoration: underline;}
 .button :hover{text-decoration: underline;}
 
 </style>

@@ -30,11 +30,12 @@
 </section>
 <style>
     section{
-    background:url(https://i.pinimg.com/564x/e3/fa/55/e3fa5585c9df83aa38b926c9a01d8866.jpg) center center no-repeat fixed;
-    background-size: cover;
-    width: 100vw;
-height: 100vh;
-margin: 0em;
+        background-image: url(https://i.pinimg.com/736x/c4/b0/e9/c4b0e90dff4dc55a1f9b4370343bdf7d.jpg) ;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        padding: 5%;
+
     }
     h1{
     text-align: center;
@@ -45,7 +46,7 @@ margin: 0em;
 }
     main{
         width: 85vw;
-        height: 100vh;
+        height: 90vh;
         margin: auto;
         background-color: rgb(0 0 0/0.4);
         border: white dotted 5px;

@@ -32,10 +32,15 @@
 	<div class="links-waper">
 		<a href="{base}/">Hem</a>
 
-	<a href="{base}/photoapp">Moew</a>
+	<a href="{base}/photoapp">Photos</a>
 	
 	
-	<a href="{base}/register"> reg</a>
+	<a href="{base}/register"> Register</a>
+	<a href="{base}/shopinglist"> Shoppinglist</a>
+	<a href="{base}/memory"> Memory</a>
+	<a href="{base}/chat"> Chat</a>
+	<a href="{base}/search"> Search</a>
+
 	</div>
 </div>
 	
@@ -48,11 +53,11 @@
 margin: 0em;
 		background: url(https://i.pinimg.com/originals/c2/cf/03/c2cf0362e1f8792fd527f83edbf3c5e7.gif) no-repeat no-repeat fixed;
 	background-size: 100vw 10vh;
-	background-color: rgb(255, 148, 202);
+	background-color: rgb(0, 0, 0);
 	
 	}
 	nav .top{
-		padding-top: 10px;
+		padding-top: 20px;
 		
 	}
 	h1{
@@ -65,6 +70,7 @@ margin: 0em;
 	.links{
 		text-align: center;
 		color: black;
+	
 	}
 .links-waper :hover{text-decoration: underline;}
 </style>
