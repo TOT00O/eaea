@@ -1,6 +1,11 @@
 <script>
 
-let items = [{name:"milk" },{name:"butter"},{name:"kokosnöt"},{name:"tomato"},{name:"breadstick"},{name:"poop"}]
+let items = []
+
+function additems(){
+
+}
+
 </script>
 
 
@@ -17,10 +22,11 @@ let items = [{name:"milk" },{name:"butter"},{name:"kokosnöt"},{name:"tomato"},{
                     {item.name}
                 </li>
             {/each}
-            <li><input type="text" id="item" ></li>
+           
             </ol>
-
+            
         </section>
+        
         <section>
             <h2>Items brought</h2>
             <ul>
@@ -28,6 +34,7 @@ let items = [{name:"milk" },{name:"butter"},{name:"kokosnöt"},{name:"tomato"},{
             </ul>
         </section>
     </div>
+    <input type="text"> 
 </main>
 </div>
 
