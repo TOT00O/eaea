@@ -2,7 +2,7 @@
 <script>
     let search = ""
     import {goto} from '$app/navigation'
-</script>
+    </script>
 
 
 

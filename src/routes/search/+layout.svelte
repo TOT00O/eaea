@@ -1,5 +1,8 @@
 
 
+<script>
+    let png = ""
+</script>
 
 <main>
     <slot>
