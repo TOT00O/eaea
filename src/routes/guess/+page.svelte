@@ -24,7 +24,7 @@ function togglePopup() {
 
 
 <main>
-    <p><img src={png1N}></p>
+    <p><img src={png1}></p>
     <button on:click={togglePopup}>Click here for free robux</button>
 
 
