@@ -1,40 +1,72 @@
 <script>
 
-let items = []
+    let items = [];
+    let item = "";
 
-function additems(){
+    function itemSubmit(){
+        if(item == ""){
+            return;
+        }
+        let new_item = {namn: item, bought: false};
+        items.push(new_item)
+        item = "";
+        items = items
+    }
 
-}
-
+    function itembought(item){
+        item.bought = true
+        items = items
+    }
+    function item_not_bought(){
+        item.bought = false
+        items = items
+    }
+    function item_delete(index){
+        items.splice(index,1)
+        items = items
+    }
 </script>
 
 
-
-<div class="bg">
-<main class=container>
-    <h1>ShoppingList</h1>
-    <div class="categories_container">
-        <section>
-            <h2>Items to buy</h2>
-            <ol>
-                {#each items as item}
-                <li>
-                    {item.name}
-                </li>
+<div class = bg>
+<main class = "container">
+ <h1>Shoppinglist</h1>
+ <div class = "categories_container"> 
+    <section>
+        <h2>Wishlist</h2>
+        <ul>
+            {#each items as item, index}
+            {#if item.bought == false}
+            <li>
+                <form on:submit|preventDefault={()=>itembought(item)}>
+                  {item.namn} <input type = "submit" value = "köpt" class="button">
+                </form>
+            </li>
+            {/if}
             {/each}
-           
-            </ol>
-            
-        </section>
-        
-        <section>
-            <h2>Items brought</h2>
-            <ul>
 
-            </ul>
-        </section>
-    </div>
-    <input type="text"> 
+        </ul>
+    </section>
+    <section>
+        <h2>Brought items</h2>
+        <ul>
+            {#each items as item, index}
+            {#if item.bought == true}
+            <li>
+                <form on:submit|preventDefault={() => item_not_bought(item)}>
+                  {item.namn} <button type="button" on:click={()=>item_delete(index)}>Remove</button>
+                </form>
+            </li>
+            {/if}
+            {/each}
+        </ul>
+    </section>
+</div>
+<form on:submit|preventDefault={itemSubmit}>
+   
+    <input type="text" id= "item" bind:value={item} placeholder="add items here" style="color:black;">
+    <input type="submit" value="Lägg till" class="button">
+</form>
 </main>
 </div>
 
@@ -62,8 +94,8 @@ li{
 
     
 .container{
-    background-color: rgb(0, 0, 0);
-    border: solid black 5px;
+    background-color: rgb(80, 80, 80);
+    border: solid rgb(81, 81, 81) 5px;
     width: 60vw;
     height: 70vh;
     border-radius: 20px;
@@ -109,5 +141,17 @@ h2{
     text-decoration: underline;
     padding:10px;
     border-radius: 12px;
+}
+button{
+    color: white;
+    background-color: black;
+}
+.button{
+    color: white;
+    background-color: black;
+}
+li{
+    background-color: rgba(0, 0, 0, 0.1);
+    
 }
 </style>

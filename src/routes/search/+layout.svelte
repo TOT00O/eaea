@@ -1,10 +1,13 @@
 
 
 <script>
-    let png = ""
+    let png = "https://i.pinimg.com/736x/e8/03/46/e8034699b30fc20ac04dddbaa01a16ec.jpg"
 </script>
 
 <main>
+    <div class="photo">
+    <img src={png} alt="flex">
+    </div>
     <slot>
         
     </slot>
@@ -16,7 +19,10 @@
 </div>
 
 <style>
-       
+
+    .photo{
+        border-radius: 5px;
+    }
     main{
         height: 90vh;
         width: 80vw;
@@ -28,6 +34,7 @@
         justify-items: center;
         align-items: center;
         color: black;
+        
     }
     .backdrop{
         background-image: url(https://i.pinimg.com/736x/c4/b0/e9/c4b0e90dff4dc55a1f9b4370343bdf7d.jpg) ;
