@@ -41,7 +41,7 @@
 	<a href="{base}/chat"> Chat</a>
 	<a href="{base}/search"> Search</a>
 	<a href="{base}/ux-login"> login</a>
-	<a href="{base}/guess"> guess</a>
+	<a href="{base}/guess"> robux</a>
 	
 
 	</div>
