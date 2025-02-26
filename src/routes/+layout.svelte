@@ -42,7 +42,10 @@
 	<a href="{base}/search"> Search</a>
 	<a href="{base}/ux-login"> login</a>
 	<a href="{base}/guess"> robux</a>
-	
+	<a href="{base}/keyboardbind"> i dont know</a>
+	<a href="{base}/fruit"> Frukter.online</a>
+
+
 
 	</div>
 </div>
