@@ -44,6 +44,7 @@
 	<a href="{base}/guess"> robux</a>
 	<a href="{base}/keyboardbind"> i dont know</a>
 	<a href="{base}/fruit"> Frukter.online</a>
+	<a href="{base}/jojoo"> test prov</a>
 
 
 

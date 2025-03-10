@@ -6,7 +6,7 @@
 
 <main>
     <div class="photo">
-    <img src={png} alt="flex">
+
     </div>
     <slot>
         
